@@ -19,9 +19,18 @@ The volume of data that i used on this repository is very less, that's why i had
 
 For this task, i would recommend the following tools and softwares for the better functionality and running of the code.
 
+
+Download the latest apache spark framework file from  [Apache Spark website](https://spark.apache.org/downloads.html). Follow the instructions that is mentioned on the documentation page as per you operating system.check the reference links section for installing and configuring spark on your local machine.
+
 1) Python (Using package installer/anaconda installer)
+2) Java (jdk-8 or above is preferred)
+3) Apache spark (any versions)
 2) Visual Studio Code (as an IDE)
-3) Jupyter notebook
+3) Any Python interactive notebook (like jupyter, databricks or apache zeppelins, or google colab)
+
+
+
+
 ## Installation
 
 Apache spark was built using Java and Scala. Many programming languages like Python,R,Java and Scala has an extensive support for spark framework. In this repository we will use Pyspark, a python spark library used to access spark functions.
@@ -48,10 +57,28 @@ Once if you execute this command on your anaconda prompt, the environment will b
 ```anaconda prompt
 pip install pyspark
 ```
-This command will let you install the latest version of pyspark along with it's dependencies.
+This command will let you install the latest version of pyspark along with it's dependencies. Afterwads open visual studio code and download some of the official extensions that is mentioned below
+
+Python extension on VS code
+
+![Python extension](https://user-images.githubusercontent.com/47708135/223369369-2a56e3fa-7f94-4f0c-a489-cfe94f7e518c.png)
+
+Jupyter notebook extension on VS code
+
+![Jupyter notebook extension](https://user-images.githubusercontent.com/47708135/223397974-a26dff33-4a80-4fc0-b220-86fb97c04702.png)
+
+If all the above procedures are completed, open the python notebooks by making a clone of this repository.Once if you clone this entire repo then you will have those notebooks saved in your local machine then open those notebooks directly using VS code.
+
+Choose the created "spark-env" python virtual environment to execute the notebook commands
+
+![Choosing kernel on VS code](https://user-images.githubusercontent.com/47708135/223433340-d26e993d-bcef-4e31-b4a2-d69fd834109a.png)
+
+## Reference links
+
+1) [For installing spark based on python](https://spark.apache.org/docs/latest/api/python/getting_started/install.html#using-conda)
 
 
-## Authors
+## Author
 
 - [Swaminathan ayyappan](https://github.com/swaminathanayyappan190799)
 
