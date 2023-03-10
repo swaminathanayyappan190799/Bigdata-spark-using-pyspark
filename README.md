@@ -73,12 +73,30 @@ Choose the created "spark-env" python virtual environment to execute the noteboo
 
 ![Choosing kernel on VS code](https://user-images.githubusercontent.com/47708135/223433340-d26e993d-bcef-4e31-b4a2-d69fd834109a.png)
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`SPARK_HOME : The path were you had downloaded the spark .tar/.gz file`
+
+`PYTHON_PATH : Path of the python.exe file on your local machine`
+
+If you are installing java JDK it will automatically add the path to the system environment variables.
+
 ## Reference links
 
-1) [For installing spark based on python](https://spark.apache.org/docs/latest/api/python/getting_started/install.html#using-conda)
+[For installing spark based on python](https://spark.apache.org/docs/latest/api/python/getting_started/install.html#using-conda)
+
+[Installing python using anaconda](https://www.anaconda.com/)
 
 
-## Author
+
+## Authors
 
 - [Swaminathan ayyappan](https://github.com/swaminathanayyappan190799)
+
+
+## Badges
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
